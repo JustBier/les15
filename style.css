@@ -1,0 +1,100 @@
+
+head, body, footer{
+background-color: skyblue;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+ul a{
+color: white;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 10px;
+text-align: center;
+color: white;
+border-left: 2px solid aqua;
+border-right: 2px solid aqua;
+background-color: darkblue;
+}
+li:hover{
+background-color: blue;
+border-style: none;
+box-shadow: inset 2px 4px 6px darkblue;
+}
+li:active{
+background-color: darkblue;
+border-style: none;
+box-shadow: inset 6px 6px 6px black;
+}
+
+#Home{
+  background-color: orange;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-style: outset;
+}
+
+p{
+  padding: 5px;
+}
+
+#sleutelen{
+float: center;
+border: 2px solid brown;
+width: 50%;
+height: 50%;
+}
+
+#CV{
+  background-color: orange;
+  padding: 6px;
+  margin: auto;
+  width: 65%;
+  border-style: outset;
+}
+
+table, td, th{
+border-collapse: collapse;
+background-color: grey;
+padding: 6px;
+margin: auto;
+border-style: solid;
+}
+
+#Formulier{
+  background-color: orange;
+  padding: 6px;
+  margin: auto;
+  width: 60%;
+  border-style: outset;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: inset 2px 2px 2px grey;
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+button:active{
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  box-shadow: inset 2px 4px 6px darkblue;
+}
